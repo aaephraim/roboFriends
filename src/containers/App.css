@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    margin-bottom: 0;
+    color: #ACBCFF;
+    letter-spacing: 0.1em;
+    text-decoration: overline transparent;
+    font-style: italic;
+    animation: groove 2s infinite  ease-in-out forwards;
+    animation-iteration-count: 1;
+    
+
+}
+@keyframes groove{
+    from {
+        transform: translateX(-10em);
+        
+        
+    }
+    to {
+        text-decoration: overline #79E0EE;
+        
+    }
+}
+
+
